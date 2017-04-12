@@ -1,4 +1,4 @@
-package com.didispace.web;
+package com.it.course.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,7 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        return "Hello World";
+        return "hello";
     }
 
 }
